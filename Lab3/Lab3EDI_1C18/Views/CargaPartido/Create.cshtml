@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Create de Partidos Json";
+}
+
+<h2>Carga de Archivo Json para Partidos de la Copa Mundial de la FIFA Rusia 2018</h2>
+
+@using (Html.BeginForm("Create", "CargaPartido", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <span>Seleccionar archivo:</span>
+    <input type="file" name="postedFile" />
+        <br />
+            <input type="submit" value="Subir" />
+            <span style="color:green">@ViewBag.Message</span><br />            
+}
+<br />
+<br />
+<br />
+<div>
+    @Html.ActionLink("Mostrar Recorrido En Orden por Fecha", "IndexInFecha")<br />
+    @Html.ActionLink("Mostrar Recorrido En Orden por Numero", "IndexInNoPartido")
+</div>
+

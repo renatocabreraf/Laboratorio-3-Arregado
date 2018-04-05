@@ -1,0 +1,98 @@
+{
+  "nodo1": {
+	"noPartido": 11,
+	"FechaPartido": "2018-06-17",
+	"Grupo": "F",
+	"Pais1": "Alemania",
+    "Pais2": "México",
+    "Estadio": "Luzhniki Stadium"
+  },
+  "nodo2": {
+	"noPartido": 24,
+	"FechaPartido": "2018-06-22",
+	"Grupo": "D",
+	"Pais1": "Nigeria",
+    "Pais2": "Islandia",
+    "Estadio": "Volgograd Arena"
+  },
+ "nodo3": {
+	"noPartido": 47,
+	"FechaPartido": "2018-06-08",
+	"Grupo": "H",
+	"Pais1": "Japón",
+    "Pais2": "Polonia",
+    "Estadio": "Volgograd Arena"
+  },
+ "nodo4": {
+	"noPartido": 31,
+	"FechaPartido": "2018-06-24",
+	"Grupo": "H",
+	"Pais1": "Polonia",
+    "Pais2": "Colombia",
+    "Estadio": "Kazan Arena"
+  },
+ "nodo5": {
+	"noPartido": 6,
+	"FechaPartido": "2018-06-16",
+	"Grupo": "C",
+	"Pais1": "Perú",
+    "Pais2": "Dinamarca",
+    "Estadio": "Mordovia Arena"
+  },
+  "nodo6": {
+	"noPartido": 25,
+	"FechaPartido": "2018-06-22",
+	"Grupo": "E",
+	"Pais1": "Brasil",
+    "Pais2": "Costa Rica",
+    "Estadio": "Krestovsky Stadium"
+  },
+ "nodo7": {
+	"noPartido": 3,
+	"FechaPartido": "2018-06-15",
+	"Grupo": "B",
+	"Pais1": "Portugal",
+    "Pais2": "España",
+    "Estadio": "Fisht Olympic Stadium"
+  },
+ "nodo8": {
+	"noPartido": 30,
+	"FechaPartido": "2018-06-24",
+	"Grupo": "G",
+	"Pais1": "Inglaterra",
+    "Pais2": "Panamá",
+    "Estadio": "Nizhny Novgorod Stadium"
+  },
+ "nodo9": {
+	"noPartido": 33,
+	"FechaPartido": "2018-06-25",
+	"Grupo": "A",
+	"Pais1": "Uruguay",
+    "Pais2": "Rusia",
+    "Estadio": "Cosmos Arena"
+  },
+ "nodo10": {
+	"noPartido": 7,
+	"FechaPartido": "2018-06-16",
+	"Grupo": "D",
+	"Pais1": "Argentina",
+    "Pais2": "Islandia",
+    "Estadio": "Otkrytiye Arena"
+  },
+ "nodo11": {
+	"noPartido": 12,
+	"FechaPartido": "2018-06-18",
+	"Grupo": "F",
+	"Pais1": "Suecia",
+    "Pais2": "Corea del Sur",
+    "Estadio": "Nizhny Novgorod Stadium"
+  },
+ "nodo12": {
+	"noPartido": 1,
+	"FechaPartido": "2018-06-14",
+	"Grupo": "A",
+	"Pais1": "Rusia",
+    "Pais2": "Arabia Saudita",
+    "Estadio": "Luzhniki Stadium"
+  }
+}

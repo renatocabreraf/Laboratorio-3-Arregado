@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Laboratorio 3";
+}
+
+<body style="background-image: url(http://colonialsoccerclub.org/wp-content/uploads/2015/02/movie-pic.jpg)">
+    <div class="jumbotron" style="background-image: url(https://www.moscovery.com/wp-content/uploads/2017/07/header-14.jpg)">
+        <h1 style="color: black;">Laboratorio 3</h1>
+        <p class="lead"style="color: black;">Renato José Cabrera Figueroa  1010617</p>
+        <p class="lead"style="color: black;">José Carlos Herrera Franco 1007217 </p>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <h2 style="color: black;">Insertar datos manuales</h2>
+            <p><a href="~/Partido/Create" class="btn btn-primary btn-lg">Insertar por numero &raquo;</a></p>
+            <p><a href="~/Partido/Create" class="btn btn-primary btn-lg">Insertar por Fecha &raquo;</a></p>
+            <h2 style="color: black;">Insertar datos desde archivo Json</h2>
+            <p><a href="~/CargaPartido/Create" class="btn btn-primary btn-lg">Insertar por Archivo Json &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2 style="color: black;">Si desea, puede chequear los recorridos ordenados</h2>
+            <p><a href="~/Partido/IndexPorNumero" class="btn btn-primary btn-lg">Numeros de los partidos &raquo;</a></p>
+            <p><a href="~/Partido/IndexPorFecha" class="btn btn-primary btn-lg">Fecha del partido &raquo;</a></p>
+            <p><a href="~/CargaPartido/IndexInNoPartido" class="btn btn-primary btn-lg">Numeros de los partidos, cargados con el archivo Json &raquo;</a></p>
+            <p><a href="~/CargaPartido/IndexInFecha" class="btn btn-primary btn-lg">Fecha del partido, cargados con el archivo Json &raquo;</a></p>
+        </div>
+    </div>
+</body>

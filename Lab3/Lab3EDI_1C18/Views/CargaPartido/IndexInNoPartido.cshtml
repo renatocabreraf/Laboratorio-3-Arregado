@@ -1,0 +1,76 @@
+﻿@using Lab3EDI_1C18.Models;
+@model  IEnumerable<Lab3EDI_1C18.Models.Partido>
+
+@{
+    ViewBag.Title = "IndexInNoPartido";
+}
+
+<h2>Ordenar los datos por los numeros de partidos de la Copa Mundial de la FIFA Rusia 2018</h2>
+<pages validaterequest="false"></pages>
+
+
+
+  @using (Html.BeginForm("Buscar", "CargaPartido", FormMethod.Get, new { enctype = "multipart/form-data" }))
+  {
+      <h2>Buscar unicamente por numero</h2>
+     @Html.TextBox("id") 
+      <input type = "submit" name = "id" value = "Buscar Numero"/>
+  }
+
+
+<br />
+<br />
+<br />
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.noPartido)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FechaPartido)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Grupo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Pais1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Pais2)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Estadio)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.noPartido)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaPartido)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Grupo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pais1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pais2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Estadio)
+            </td>
+            <td>
+                @Html.ActionLink("Delete", "Delete", new { id = item.noPartido })
+            </td>
+        </tr>
+    }
+
+</table>
+

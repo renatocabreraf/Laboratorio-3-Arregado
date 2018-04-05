@@ -1,0 +1,63 @@
+﻿@model Lab3EDI_1C18.Models.Partido
+@{
+    ViewBag.Title = "BuscarFecha";
+}
+
+<h2>Buscar el partido por fecha de la Copa Mundial de la FIFA Rusia 2018</h2>
+
+<div>
+    <h4>Partido</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.noPartido)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.noPartido)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaPartido)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FechaPartido)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Grupo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Grupo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Pais1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pais1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Pais2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pais2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Estadio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Estadio)
+        </dd>
+
+    </dl>
+    <br />
+    @Html.ActionLink("Back to List", "IndexInFecha")
+
